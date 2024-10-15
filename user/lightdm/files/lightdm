@@ -1,0 +1,6 @@
+type = process
+command = /usr/bin/lightdm
+depends-on = login.target
+depends-on = dbus
+depends-ms = elogind
+smooth-recovery = true
